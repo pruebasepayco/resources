@@ -1,13 +1,7 @@
 import React, {Component} from 'react';
 
-
-
-
-
-
 export default class Checkout extends Component {
 
-    
     openchekout = e =>{
         e.preventDefault();
 
@@ -52,8 +46,7 @@ export default class Checkout extends Component {
                     placeholder="pagar"
                     onClick={this.openchekout}
                     /> 
-                  
-              
+                          
                     </React.Fragment>
        
         )
